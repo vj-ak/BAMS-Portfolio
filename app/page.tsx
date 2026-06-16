@@ -6,6 +6,7 @@ import Experience from '@/components/Experience'
 import Certifications from '@/components/Certifications'
 import Research from '@/components/Research'
 import Testimonials from '@/components/Testimonials'
+import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Certifications />
       <Research />
       <Testimonials />
+      <Contact />
       <Footer />
     </main>
   )
