@@ -14,12 +14,49 @@ const lora = Lora({
 })
 
 export const metadata: Metadata = {
-  title: 'Dr. Sushma S — Ayurveda Physician | BAMS',
-  description: 'Dr. Sushma S, BAMS — Ayurveda Physician specialising in Panchakarma, PCOD/PCOS, lifestyle diseases, and pain management.',
+  title: 'Dr. Sushma S — Ayurveda Physician | BAMS | Panchakarma Specialist',
+  description: 'Dr. Sushma S, BAMS — Ayurveda Physician specialising in Panchakarma, PCOD/PCOS, lifestyle diseases, and pain management. Book consultation online.',
+  keywords: ['Ayurveda', 'Ayurvedic Doctor', 'Panchakarma', 'BAMS', 'PCOD', 'PCOS', 'Pain Management', 'Bengaluru', 'Ayurvedic Physician'],
+  authors: [{ name: 'Dr. Sushma S' }],
+  creator: 'Dr. Sushma S',
+  publisher: 'Dr. Sushma S',
+  metadataBase: new URL('https://drsushma.webhost.atsnet.in'),
   openGraph: {
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://drsushma.webhost.atsnet.in',
     title: 'Dr. Sushma S — Ayurveda Physician | BAMS',
-    description: 'Book a consultation with Dr. Sushma S for holistic Ayurvedic care.',
-    images: ['/images/og-image.jpg'],
+    description: 'Holistic Ayurvedic care for lifestyle diseases, women\'s health & pain management. Book a consultation today.',
+    siteName: 'Dr. Sushma S | Ayurveda Physician',
+    images: [
+      {
+        url: '/images/profile.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Dr. Sushma S - Ayurveda Physician',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dr. Sushma S — Ayurveda Physician | BAMS',
+    description: 'Holistic Ayurvedic care for lifestyle diseases, women\'s health & pain management.',
+    images: ['/images/profile.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-snippet': -1,
+      'max-image-preview': 'large',
+      'max-video-preview': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://drsushma.webhost.atsnet.in',
   },
 }
 
@@ -30,6 +67,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${lora.variable}`}>
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://drsushma.webhost.atsnet.in" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+      </head>
       <body className="font-sans text-gray-800 bg-white antialiased">
         {children}
       </body>
