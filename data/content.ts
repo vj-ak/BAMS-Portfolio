@@ -30,7 +30,7 @@ export const doctor = {
     {
       icon: "GiHerbsBundle",
       title: "Panchakarma & Detox",
-      items: ["Vamana", "Virechana", "Basti", "Nasya", "Raktamokshana", "Shirodhara", "Leech therapy"],
+      items: ["Vamana", "Virechana", "Basti", "Nasya", "Shirodhara", "Leech therapy"],
     },
     {
       icon: "FaSeedling",
@@ -63,13 +63,12 @@ export const doctor = {
   experience: [
     {
       role: "Ayurveda Physician",
-      institution: "Vedakshethra Ayurvedic & Panchakarma Clinic",
+      institution: "Vedakshethra Kerala Ayurvedic Treatment Centre",
       location: "Madiwala, Bengaluru",
       period: "Apr 2026 – Present",
       highlights: [
         "Delivering authentic Kerala-style Ayurveda and Panchakarma treatments at the Madiwala branch",
         "Managing personalised treatment plans for pain, women's health, lifestyle diseases, skin & hair care",
-        "Practising advanced Kalari Marma therapy for energy balance and muscle recovery",
         "Prescribing Arya Vaidya Pharmacy (Coimbatore) Ltd. medicines as an authorised centre",
       ],
     },

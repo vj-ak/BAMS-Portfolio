@@ -50,9 +50,9 @@ export default function Experience() {
                   </div>
                   <ul className="space-y-1.5">
                     {exp.highlights.map((point, j) => (
-                      <li key={j} className="text-sm text-gray-500 flex items-start gap-2">
-                        <span className="text-brand-400 mt-1 flex-shrink-0">›</span>
-                        {point}
+                      <li key={j} className="text-sm text-gray-500 flex items-start gap-2 leading-relaxed">
+                        <span className="text-brand-400 flex-shrink-0 leading-relaxed">›</span>
+                        <span>{point}</span>
                       </li>
                     ))}
                   </ul>
