@@ -6,7 +6,7 @@ export const doctor = {
   title: "BAMS · Ayurveda Physician",
   tagline: "Holistic Ayurvedic care for lifestyle diseases, women's health & pain management",
   profilePhoto: "/images/profile.jpg",
-  email: "sushbhav2001@gmail.com",
+  email: "drsushmas852@gmail.com",
   phone: "+91 75981 58582",
   location: "Madiwala, Bengaluru, Karnataka, India – 560068",
   consultationHours: "Mon – Sun, 9:30 AM – 8:00 PM (Wed–Sat: one day weekly off)",
@@ -76,7 +76,7 @@ export const doctor = {
       role: "Ayurveda Consultant",
       institution: "Traditional Siddha Ayurveda Clinic",
       location: "Hosur, Tamil Nadu",
-      period: "Nov 2025 – Mar 2026",
+      period: "Jan 2026 – Apr 2026",
       highlights: [
         "Provided consultations integrating classical Ayurvedic and Siddha treatment principles",
         "Managed OPD patients for lifestyle diseases, pain management, and preventive care",
@@ -87,7 +87,7 @@ export const doctor = {
       role: "Compulsory Rotating Intern",
       institution: "Sri Sairam Ayurveda Medical College & Research Center",
       location: "West Tambaram, Chennai, Tamil Nadu",
-      period: "2023 – 2024",
+      period: "2024 – 2025",
       highlights: [
         "Managed OPD and IPD patients under physician supervision across all major departments",
         "Assisted in Panchakarma procedures and other Ayurvedic treatments",
@@ -126,14 +126,24 @@ export const doctor = {
       year: "2024",
     },
     {
+      name: "Oral Presentation – \"Global Ayurveda: Innovations & Integrations\"",
+      issuer: "International Conference on Ayurveda",
+      year: "2024",
+    },
+    {
+      name: "Delegate – \"Integrative Approach of AYUSH Medicine in Healthcare\"",
+      issuer: "Captain Srinivasa Murthy Central Ayurveda Research Institute",
+      year: "Jan 2024",
+    },
+    {
       name: "Delegate – Himalaya Ayurveda Conference",
       issuer: "Himalaya Wellness",
       year: "2023",
     },
     {
       name: "Community Health Camps & Workshops",
-      issuer: "Sri Sairam Ayurveda Medical College",
-      year: "2022 – 2024",
+      issuer: "Sri Sairam Ayurveda Medical College (during college)",
+      year: "2023 – 2025",
     },
   ],
 
