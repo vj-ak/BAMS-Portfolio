@@ -87,7 +87,7 @@ export const doctor = {
       role: "Compulsory Rotating Intern",
       institution: "Sri Sairam Ayurveda Medical College & Research Center",
       location: "West Tambaram, Chennai, Tamil Nadu",
-      period: "2024 – 2025",
+      period: "Sep 2024 – Sep 2025",
       highlights: [
         "Managed OPD and IPD patients under physician supervision across all major departments",
         "Assisted in Panchakarma procedures and other Ayurvedic treatments",
@@ -98,7 +98,7 @@ export const doctor = {
       role: "Part-Time Clinical Intern",
       institution: "Dhanwantralaya Ayurveda Specialty Hospital",
       location: "West Tambaram, Chennai, Tamil Nadu",
-      period: "2022 – 2023",
+      period: "May 2025 – Jun 2025",
       highlights: [
         "Assisted with herbal dispensing and Panchakarma therapy procedures",
         "Gained exposure to hospital-grade Ayurvedic workflows and case documentation",
@@ -109,11 +109,10 @@ export const doctor = {
       role: "Part-Time Clinical Intern",
       institution: "Kottakkal Arya Vaidya Sala",
       location: "Nanganallur, Chennai, Tamil Nadu",
-      period: "2022 – 2023",
+      period: "Nov 2024 – Apr 2025",
       highlights: [
         "Supported outpatient care under senior Ayurvedic physicians",
         "Gained hands-on experience with classical Kottakkal formulations and dispensing",
-        "Assisted in therapy procedures and patient counselling",
       ],
     },
   ],
@@ -137,16 +136,23 @@ export const doctor = {
   // ── Research ────────────────────────────────────────────────
   research: [
     {
-      title: "Application of 3D Printing in Ayurveda Pharmacy",
+      title: "Application of 3D Printing in Ayurveda Pharmacy - A Steps Towards Personalized Medicine",
       venue: "IJAMR (International Journal of Ayurveda & Medical Research)",
       year: "Mar 2026",
       type: "Published" as const,
       link: "",
     },
     {
-      title: "Application of 3D Printing in Ayurveda Pharmacy",
-      venue: "\"Insight of Parkinsonism in Ayurveda\" Conference",
-      year: "2024",
+      title: "Application of 3D Printing in Ayurveda Pharmacy - A Steps Towards Personalized Medicine",
+      venue: "Insight of Parkinsonism in Ayurveda - Conference",
+      year: "Mar 2024",
+      type: "Presented" as const,
+      link: "",
+    },
+    {
+      title: "Oral Presentation – \"Global Ayurveda: Innovations & Integrations\"",
+      venue: "International Conference on Ayurveda",
+      year: "Oct 2024",
       type: "Presented" as const,
       link: "",
     },
