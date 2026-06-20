@@ -50,7 +50,7 @@ export default function Hero() {
                 onClick={() => document.querySelector('#skills')?.scrollIntoView({ behavior: 'smooth' })}
                 className="inline-flex items-center justify-center border border-gray-200 text-gray-600 hover:border-brand-500 hover:text-brand-600 font-medium px-7 py-3.5 rounded-full transition-colors"
               >
-                View My Work
+                View My Specialities
               </button>
             </div>
           </motion.div>
