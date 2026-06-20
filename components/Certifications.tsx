@@ -1,10 +1,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { BsAward } from 'react-icons/bs'
 import { HiOutlineAcademicCap } from 'react-icons/hi'
 import { MdOutlinePeopleAlt } from 'react-icons/md'
-import { FaFlask } from 'react-icons/fa'
 import { doctor } from '@/data/content'
 
 type Category = 'degree' | 'conference' | 'workshop'
@@ -23,31 +21,31 @@ const categoryConfig: Record<Category, {
     label: 'Degree',
     icon: HiOutlineAcademicCap,
     cardBg: 'bg-gradient-to-br from-brand-50 to-white border-brand-200',
-    iconBg: 'bg-brand-600',
+    iconBg: 'bg-brand-700',
     iconColor: 'text-white',
     badge: 'bg-brand-100 text-brand-700 border border-brand-200',
     badgeText: 'Degree',
-    yearColor: 'text-brand-600',
+    yearColor: 'text-brand-700',
   },
   conference: {
     label: 'Conference',
-    icon: BsAward,
-    cardBg: 'bg-gradient-to-br from-amber-50 to-white border-amber-200',
-    iconBg: 'bg-amber-500',
+    icon: HiOutlineAcademicCap,
+    cardBg: 'bg-gradient-to-br from-brand-50 to-white border-brand-200',
+    iconBg: 'bg-brand-500',
     iconColor: 'text-white',
-    badge: 'bg-amber-100 text-amber-700 border border-amber-200',
+    badge: 'bg-brand-100 text-brand-600 border border-brand-200',
     badgeText: 'Conference',
-    yearColor: 'text-amber-600',
+    yearColor: 'text-brand-600',
   },
   workshop: {
     label: 'Workshop',
     icon: MdOutlinePeopleAlt,
-    cardBg: 'bg-gradient-to-br from-purple-50 to-white border-purple-200',
-    iconBg: 'bg-purple-500',
+    cardBg: 'bg-gradient-to-br from-brand-50 to-white border-brand-100',
+    iconBg: 'bg-brand-400',
     iconColor: 'text-white',
-    badge: 'bg-purple-100 text-purple-700 border border-purple-200',
+    badge: 'bg-brand-50 text-brand-600 border border-brand-100',
     badgeText: 'Workshop',
-    yearColor: 'text-purple-600',
+    yearColor: 'text-brand-500',
   },
 }
 

@@ -26,10 +26,10 @@ function groupPapers(papers: ResearchItem[]) {
 }
 
 const typeConfig: Record<string, { icon: React.ElementType; color: string; bg: string; label: string }> = {
-  Presented:      { icon: HiOutlineMicrophone, color: 'text-blue-600',   bg: 'bg-blue-50 border-blue-200',     label: 'Presented' },
-  'Under Review': { icon: MdOutlineScience,    color: 'text-amber-600',  bg: 'bg-amber-50 border-amber-200',   label: 'Under Review' },
-  Published:      { icon: HiOutlineBookOpen,   color: 'text-brand-600',  bg: 'bg-brand-50 border-brand-200',   label: 'Published' },
-  Delegate:       { icon: BsPeopleFill,        color: 'text-purple-600', bg: 'bg-purple-50 border-purple-200', label: 'Delegate' },
+  Presented:      { icon: HiOutlineMicrophone, color: 'text-brand-600',  bg: 'bg-brand-50 border-brand-200',   label: 'Presented' },
+  'Under Review': { icon: MdOutlineScience,    color: 'text-brand-400',  bg: 'bg-brand-50 border-brand-100',   label: 'Under Review' },
+  Published:      { icon: HiOutlineBookOpen,   color: 'text-brand-700',  bg: 'bg-brand-100 border-brand-300',  label: 'Published' },
+  Delegate:       { icon: BsPeopleFill,        color: 'text-brand-500',  bg: 'bg-brand-50 border-brand-200',   label: 'Delegate' },
 }
 
 export default function Research() {
@@ -120,7 +120,7 @@ export default function Research() {
         {conferenceItems.length > 0 && (
           <>
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full bg-purple-100 text-purple-700 border border-purple-200">
+              <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full bg-brand-50 text-brand-600 border border-brand-200">
                 Conferences & Events
               </span>
               <div className="flex-1 h-px bg-gray-200" />
@@ -133,21 +133,21 @@ export default function Research() {
                 return (
                   <motion.div
                     key={`${item.title}-${i}`}
-                    className="rounded-2xl border border-purple-100 bg-gradient-to-br from-purple-50 to-white p-5 shadow-sm hover:shadow-md transition-all flex gap-4 items-start"
+                    className="rounded-2xl border border-brand-100 bg-gradient-to-br from-brand-50 to-white p-5 shadow-sm hover:shadow-md transition-all flex gap-4 items-start"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.45, delay: i * 0.07, ease: 'easeOut' }}
                   >
-                    <div className="w-10 h-10 rounded-xl bg-purple-500 flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-xl bg-brand-500 flex items-center justify-center flex-shrink-0">
                       <Icon className="text-white text-base" />
                     </div>
                     <div className="min-w-0">
                       <h3 className="text-sm font-semibold text-gray-800 leading-snug mb-1">{item.title}</h3>
                       <p className="text-xs text-gray-500">{item.venue}</p>
                       <div className="flex items-center gap-2 mt-1">
-                        <span className="text-xs text-purple-600 font-medium">{item.year}</span>
-                        <span className="text-xs font-medium px-2 py-0.5 rounded-full border bg-purple-50 border-purple-200 text-purple-600">
+                        <span className="text-xs text-brand-600 font-medium">{item.year}</span>
+                        <span className="text-xs font-medium px-2 py-0.5 rounded-full border bg-brand-50 border-brand-200 text-brand-600">
                           Delegate
                         </span>
                       </div>
