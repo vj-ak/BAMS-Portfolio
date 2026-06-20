@@ -25,6 +25,7 @@ html {
 body {
   background: #ffffff;
   color: #1f2937;
+  overflow-x: hidden;
 }
 
 /* Equal-height testimonial slides */

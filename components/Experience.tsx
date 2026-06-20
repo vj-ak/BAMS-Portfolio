@@ -18,7 +18,7 @@ export default function Experience() {
           <h2 className="font-serif text-3xl font-semibold bg-gradient-to-r from-brand-700 via-brand-600 to-brand-500 bg-clip-text text-transparent">Clinical Journey</h2>
         </motion.div>
 
-        <div className="relative pl-8 sm:pl-12">
+        <div className="relative pl-7 sm:pl-12 pr-1 sm:pr-0">
           {/* vertical line */}
           <div className="absolute left-3 sm:left-4 top-2 bottom-2 w-0.5 bg-brand-100" />
 
@@ -33,7 +33,7 @@ export default function Experience() {
                 transition={{ duration: 0.4, delay: i * 0.07, ease: 'easeOut' }}
               >
                 {/* timeline dot */}
-                <div className="absolute -left-8 sm:-left-12 top-5 w-6 h-6 rounded-full bg-brand-600 border-4 border-white shadow-sm flex items-center justify-center">
+                <div className="absolute -left-7 sm:-left-12 top-5 w-6 h-6 rounded-full bg-brand-600 border-4 border-white shadow-sm flex items-center justify-center">
                   <div className="w-2 h-2 rounded-full bg-white" />
                 </div>
 
