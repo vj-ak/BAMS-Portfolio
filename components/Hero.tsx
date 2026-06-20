@@ -16,7 +16,7 @@ export default function Hero() {
     .toUpperCase()
 
   return (
-    <section className="min-h-screen flex items-center bg-gradient-to-br from-brand-50 via-white to-white pt-16">
+    <section className="min-h-screen flex items-center bg-gradient-to-br from-brand-50 via-white to-white pt-16 overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-16">
 
