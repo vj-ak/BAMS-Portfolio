@@ -19,42 +19,41 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Dr. Sushma S | Ayurvedic Physician & Panchakarma Specialist in Bengaluru',
-    template: '%s | Dr. Sushma S – Ayurveda',
+    default: 'Dr. Your Name | Ayurvedic Physician & Panchakarma Specialist',
+    template: '%s | Dr. Your Name – Ayurveda',
   },
-  description: 'Dr. Sushma S (BAMS) is an Ayurvedic Physician at Vedakshethra Kerala Ayurvedic Treatment Centre, Madiwala, Bengaluru. Specialises in Panchakarma detox, PCOD/PCOS, women\'s health, pain management, and lifestyle diseases. Book consultation today.',
+  description: 'Dr. Your Name (BAMS) is an Ayurvedic Physician specialising in Panchakarma detox, PCOD/PCOS, women\'s health, pain management, and lifestyle diseases. Book consultation today.',
   keywords: [
-    'Dr Sushma S', 'Ayurvedic Doctor Bengaluru', 'Ayurveda Physician Madiwala',
-    'Panchakarma Bengaluru', 'BAMS Doctor Bengaluru', 'PCOD PCOS Ayurveda',
-    'Kerala Ayurveda Bengaluru', 'Vedakshethra Ayurveda', 'Ayurvedic Treatment Bengaluru',
+    'Ayurvedic Doctor', 'Ayurveda Physician', 'Panchakarma', 'BAMS Doctor',
+    'PCOD PCOS Ayurveda', 'Kerala Ayurveda', 'Ayurvedic Treatment',
     'Women Health Ayurveda', 'Pain Management Ayurveda', 'Lifestyle Disease Ayurveda',
-    'Shirodhara Bengaluru', 'Vamana Virechana Basti Nasya', 'Holistic Doctor Bengaluru',
+    'Shirodhara', 'Vamana Virechana Basti Nasya', 'Holistic Doctor',
   ],
-  authors: [{ name: 'Dr. Sushma S', url: 'https://drsushma.webhost.atsnet.in' }],
-  creator: 'Dr. Sushma S',
-  publisher: 'Dr. Sushma S',
+  authors: [{ name: 'Dr. Your Name', url: 'https://your-domain.com' }],
+  creator: 'Dr. Your Name',
+  publisher: 'Dr. Your Name',
   category: 'Healthcare, Ayurveda, Alternative Medicine',
-  metadataBase: new URL('https://drsushma.webhost.atsnet.in'),
+  metadataBase: new URL('https://your-domain.com'),
   openGraph: {
     type: 'profile',
     locale: 'en_IN',
-    url: 'https://drsushma.webhost.atsnet.in',
-    title: 'Dr. Sushma S – Ayurvedic Physician & Panchakarma Specialist, Bengaluru',
-    description: 'Authentic Kerala Ayurveda & Panchakarma at Vedakshethra Clinic, Madiwala. Specialised care for PCOD/PCOS, pain, lifestyle diseases & women\'s health. Consult Dr. Sushma S (BAMS).',
-    siteName: 'Dr. Sushma S – Ayurveda Physician',
+    url: 'https://your-domain.com',
+    title: 'Dr. Your Name – Ayurvedic Physician & Panchakarma Specialist',
+    description: 'Authentic Ayurveda & Panchakarma. Specialised care for PCOD/PCOS, pain, lifestyle diseases & women\'s health.',
+    siteName: 'Dr. Your Name – Ayurveda Physician',
     images: [
       {
         url: '/images/profile.jpg',
         width: 1200,
         height: 630,
-        alt: 'Dr. Sushma S – BAMS Ayurvedic Physician at Vedakshethra, Madiwala Bengaluru',
+        alt: 'Dr. Your Name – BAMS Ayurvedic Physician',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dr. Sushma S – Ayurvedic Physician & Panchakarma Specialist, Bengaluru',
-    description: 'Authentic Kerala Ayurveda & Panchakarma. Specialised in PCOD/PCOS, pain, lifestyle diseases & women\'s health.',
+    title: 'Dr. Your Name – Ayurvedic Physician & Panchakarma Specialist',
+    description: 'Authentic Ayurveda & Panchakarma. Specialised in PCOD/PCOS, pain, lifestyle diseases & women\'s health.',
     images: ['/images/profile.jpg'],
   },
   robots: {
@@ -70,7 +69,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://drsushma.webhost.atsnet.in',
+    canonical: 'https://your-domain.com',
   },
 }
 
@@ -104,7 +103,7 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drsushma.webhost.atsnet.in" />
+        <link rel="canonical" href="https://your-domain.com" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
         <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
@@ -119,48 +118,48 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Physician",
-              "name": "Dr. Sushma S",
+              "name": "Dr. Your Name",
               "honorificPrefix": "Dr.",
               "jobTitle": "Ayurvedic Physician & Panchakarma Specialist",
               "description": "BAMS Ayurvedic Physician specialising in Panchakarma, PCOD/PCOS, women's health, pain management and lifestyle diseases.",
-              "url": "https://drsushma.webhost.atsnet.in",
-              "image": "https://drsushma.webhost.atsnet.in/images/profile.jpg",
-              "telephone": "+917598158582",
-              "email": "drsushmas852@gmail.com",
+              "url": "https://your-domain.com",
+              "image": "https://your-domain.com/images/profile.jpg",
+              "telephone": "+910000000000",
+              "email": "your.email@example.com",
               "gender": "Female",
               "medicalSpecialty": ["Ayurveda", "Panchakarma", "Women's Health", "Pain Management"],
               "worksFor": {
                 "@type": "MedicalClinic",
-                "name": "Vedakshethra Kerala Ayurvedic Treatment Centre",
+                "name": "Your Clinic Name",
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "Madiwala",
-                  "addressLocality": "Bengaluru",
-                  "addressRegion": "Karnataka",
-                  "postalCode": "560068",
+                  "streetAddress": "Your Street",
+                  "addressLocality": "Your City",
+                  "addressRegion": "Your State",
+                  "postalCode": "000000",
                   "addressCountry": "IN"
                 }
               },
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Madiwala",
-                "addressLocality": "Bengaluru",
-                "addressRegion": "Karnataka",
-                "postalCode": "560068",
+                "streetAddress": "Your Street",
+                "addressLocality": "Your City",
+                "addressRegion": "Your State",
+                "postalCode": "000000",
                 "addressCountry": "IN"
               },
               "alumniOf": {
                 "@type": "EducationalOrganization",
-                "name": "Sri Sairam Ayurveda Medical College & Research Center",
+                "name": "Your Medical College Name",
                 "address": {
                   "@type": "PostalAddress",
-                  "addressLocality": "Chennai",
-                  "addressRegion": "Tamil Nadu",
+                  "addressLocality": "City",
+                  "addressRegion": "State",
                   "addressCountry": "IN"
                 }
               },
               "sameAs": [
-                "https://www.linkedin.com/in/sushma-s-a50325303"
+                "https://www.linkedin.com/in/your-profile"
               ]
             })
           }}
