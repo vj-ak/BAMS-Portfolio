@@ -13,9 +13,9 @@ export const doctor = {
 
   // ── About ───────────────────────────────────────────────────
   bio: [
-    "Dr. Sushma S is a qualified Ayurvedic Physician (BAMS, 2024) with a strong foundation in classical Ayurvedic medicine and evidence-based clinical practice. She graduated from Sri Sairam Ayurveda Medical College & Research Center, Chennai — one of Tamil Nadu's leading Ayurvedic institutions — where she developed in-depth expertise across all major departments of Ayurvedic medicine.",
-    "Her clinical training spans multiple prestigious institutions, including Kottakkal Arya Vaidya Sala and Dhanwantralaya Ayurveda Specialty Hospital, providing hands-on exposure to over 300 OPD cases, advanced Panchakarma procedures, herbal pharmacology, and structured patient documentation. This breadth of experience has equipped her with both the technical proficiency and the patient-centred approach essential to quality Ayurvedic care.",
-    "Dr. Sushma currently practices at Vedakshethra Kerala Ayurvedic Treatment Centre, Madiwala, Bengaluru, delivering authentic Kerala-style Panchakarma and personalised treatment protocols for lifestyle diseases, women's health, and musculoskeletal conditions. She is committed to integrating the time-tested wisdom of Ayurveda with a compassionate, evidence-informed approach to holistic healing.",
+    "I am a qualified Ayurvedic Physician (BAMS, 2024) with a strong foundation in classical Ayurvedic medicine and evidence-based clinical practice. I graduated from Sri Sairam Ayurveda Medical College & Research Center, Chennai — one of Tamil Nadu's leading Ayurvedic institutions — where I developed in-depth expertise across all major departments of Ayurvedic medicine.",
+    "My clinical training spans multiple prestigious institutions, including Kottakkal Arya Vaidya Sala and Dhanwantralaya Ayurveda Specialty Hospital, providing hands-on exposure to over 300 OPD cases, advanced Panchakarma procedures, herbal pharmacology, and structured patient documentation. This breadth of experience has equipped me with both the technical proficiency and the patient-centred approach essential to quality Ayurvedic care.",
+    "I currently practice at Vedakshethra Kerala Ayurvedic Treatment Centre, Madiwala, Bengaluru, delivering authentic Kerala-style Panchakarma and personalised treatment protocols for lifestyle diseases, women's health, and musculoskeletal conditions. I am committed to integrating the time-tested wisdom of Ayurveda with a compassionate, evidence-informed approach to holistic healing.",
   ],
 
   stats: [
