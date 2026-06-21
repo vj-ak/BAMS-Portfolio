@@ -27,7 +27,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
-            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-brand-600 bg-brand-50 border border-brand-100 px-3 py-1 rounded-full mb-5">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-brand-700 bg-brand-50 border border-brand-100 px-3 py-1 rounded-full mb-5">
               {doctor.title}
             </span>
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-semibold mb-4 leading-tight bg-gradient-to-r from-brand-700 via-brand-600 to-brand-500 bg-clip-text text-transparent">
@@ -41,7 +41,7 @@ export default function Hero() {
                 href={`https://wa.me/${doctor.social.whatsapp.replace(/\D/g, '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-medium px-7 py-3.5 rounded-full transition-colors shadow-sm shadow-brand-200 w-full sm:w-auto"
+                className="inline-flex items-center justify-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-medium px-7 py-3.5 rounded-full transition-colors shadow-sm shadow-brand-200 w-full sm:w-auto"
               >
                 <FaWhatsapp className="text-lg" />
                 Book Consultation
@@ -84,6 +84,11 @@ export default function Hero() {
                   <img
                     src={doctor.profilePhoto}
                     alt={doctor.name}
+                    width={576}
+                    height={576}
+                    loading="eager"
+                    fetchPriority="high"
+                    decoding="async"
                     className="w-full h-full object-cover object-top"
                     onError={() => setImgError(true)}
                   />

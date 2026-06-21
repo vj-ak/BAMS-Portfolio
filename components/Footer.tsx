@@ -20,7 +20,7 @@ export default function Footer() {
           {/* Name + tagline */}
           <div className="text-center md:text-left">
             <p className="font-serif text-white text-xl font-semibold">{doctor.shortName}</p>
-            <p className="text-sm text-gray-500 mt-1">{doctor.title}</p>
+            <p className="text-sm text-gray-400 mt-1">{doctor.title}</p>
           </div>
 
           {/* Nav links */}
@@ -29,7 +29,7 @@ export default function Footer() {
               <button
                 key={link.href}
                 onClick={() => document.querySelector(link.href)?.scrollIntoView({ behavior: 'smooth' })}
-                className="text-sm text-gray-500 hover:text-white transition-colors"
+                className="text-sm text-gray-300 hover:text-white transition-colors"
               >
                 {link.label}
               </button>
@@ -62,7 +62,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="text-center text-xs text-gray-600 pt-6">
+        <p className="text-center text-xs text-gray-400 pt-6">
           © {new Date().getFullYear()} TechBusinessBeyond. All rights reserved.
         </p>
       </div>

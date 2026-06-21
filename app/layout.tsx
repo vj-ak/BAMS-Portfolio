@@ -109,6 +109,8 @@ export default function RootLayout({
         <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        {/* Preload the LCP hero image for faster Largest Contentful Paint */}
+        <link rel="preload" as="image" href="/images/profile.jpg" fetchPriority="high" />
         {/* Inject active theme CSS variables */}
         <style dangerouslySetInnerHTML={{ __html: themeCSS }} />
         {/* JSON-LD structured data for Google rich results */}

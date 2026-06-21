@@ -1,0 +1,33 @@
+# Dr. Sushma S – Ayurvedic Physician & Panchakarma Specialist, Bengaluru
+
+> Dr. Sushma S (BAMS, 2024) is a qualified Ayurvedic Physician at Vedakshethra Kerala Ayurvedic Treatment Centre, Madiwala, Bengaluru. She offers authentic Kerala-style Panchakarma and personalised treatment for lifestyle diseases, women's health (PCOD/PCOS), pain management, and holistic wellness. This is the official portfolio website.
+
+This website is a single-page portfolio. The links below point to the main sections of the site.
+
+## Sections
+
+- [Home / Overview](https://drsushma.webhost.atsnet.in): Introduction to Dr. Sushma S, her credentials, and consultation details.
+- [About](https://drsushma.webhost.atsnet.in/#about): Background, education, and clinical training across leading Ayurvedic institutions.
+- [Skills & Specialisations](https://drsushma.webhost.atsnet.in/#skills): Areas of expertise including Panchakarma, women's health, lifestyle diseases, and pain management.
+- [Experience](https://drsushma.webhost.atsnet.in/#experience): Clinical roles, internships, and hands-on practice history.
+- [Research](https://drsushma.webhost.atsnet.in/#research): Published research papers and academic contributions.
+- [Contact](https://drsushma.webhost.atsnet.in/#contact): Clinic location, consultation hours, phone, and email for booking appointments.
+
+## Treatments & Services
+
+- Panchakarma & Detox: Vamana, Virechana, Basti, Nasya, Shirodhara, and Leech therapy.
+- Women's Health: PCOD/PCOS management, hormonal imbalance, menstrual disorders, and weight management.
+- Lifestyle Diseases: Diabetes, hypertension, thyroid dysfunction, obesity, and metabolic disorders.
+- Musculoskeletal & Pain: Cervical and shoulder pain, low back ache, sciatica, and arthritis.
+
+## Resources
+
+- [Sitemap](https://drsushma.webhost.atsnet.in/sitemap.xml): XML sitemap of the website.
+- [Robots](https://drsushma.webhost.atsnet.in/robots.txt): Crawler access rules.
+
+## Contact
+
+- Clinic: Vedakshethra Kerala Ayurvedic Treatment Centre, Madiwala, Bengaluru, Karnataka, India – 560068
+- Email: drsushmas852@gmail.com
+- Phone: +91 75981 58582
+- Consultation Hours: Mon – Sun, 9:30 AM – 8:00 PM (Weekly off: usually Wednesday, subject to change)
